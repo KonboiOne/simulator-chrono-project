@@ -774,11 +774,11 @@ source_group("tracked_vehicle\\vehicle" FILES ${CV_TV_VEHICLE_FILES})
 # --------------- THIRD-PARTY FILES
 
 set(CV_STB_FILES
-    ${CMAKE_SOURCE_DIR}/src/chrono_thirdparty/stb/stb.h
-    ${CMAKE_SOURCE_DIR}/src/chrono_thirdparty/stb/stb_image.h
-    ${CMAKE_SOURCE_DIR}/src/chrono_thirdparty/stb/stb_image.cpp
-    ${CMAKE_SOURCE_DIR}/src/chrono_thirdparty/stb/stb_image_write.h
-    ${CMAKE_SOURCE_DIR}/src/chrono_thirdparty/stb/stb_image_write.cpp
+    ${PROJECT_SOURCE_DIR}/src/chrono_thirdparty/stb/stb.h
+    ${PROJECT_SOURCE_DIR}/src/chrono_thirdparty/stb/stb_image.h
+    ${PROJECT_SOURCE_DIR}/src/chrono_thirdparty/stb/stb_image.cpp
+    ${PROJECT_SOURCE_DIR}/src/chrono_thirdparty/stb/stb_image_write.h
+    ${PROJECT_SOURCE_DIR}/src/chrono_thirdparty/stb/stb_image_write.cpp
 )
 source_group("utils\\stb" FILES ${CV_STB_FILES})
 
